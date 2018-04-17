@@ -42,6 +42,7 @@ int main(int argc, char const *argv[])
 	while(scanf("%d %s %s", &n, s1, s2) != EOF && n != -1) {
 		printf("Round %d\n", n);
 
+		win = lose = 0;
 		left = strlen(s1);
 		chance = 7;
 
