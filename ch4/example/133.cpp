@@ -25,7 +25,7 @@ int main(int argc, char const *argv[])
 		}
 
 		int left = n;
-		int p1 = n, p2 = 1; //相当于从0开始，p1从1开始计数，因此0位置是p1 = n；p2同理。
+		int p1 = n, p2 = 1; //A从1开始逆时针计数，起始位置为n，相当于从n开始; B从n开始计数，起始位置为1。二者起始位置均为开始计数位置减一/加一。
 		while(left) {
 			p1 = go(p1, 1, k);
 			p2 = go(p2, -1, m);
