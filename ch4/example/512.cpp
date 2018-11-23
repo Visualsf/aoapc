@@ -99,7 +99,7 @@ int main(int argc, char const *argv[])
             if(!simulate(r0, c0))
                 printf("GONE\n");
             else
-                printf("move to (%d,%d) \n", r0, c0);
+                printf("move to (%d,%d)\n", r0, c0);
         }
     }
     return 0;
